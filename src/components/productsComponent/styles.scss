@@ -1,0 +1,40 @@
+@import "../../variables.scss";
+
+.div-center{
+    @include flexCenter();
+
+    p{
+        color:$colorBlack;
+        font-family: $ralewayFont;
+        font-size: $fontSizeLarge;
+    }
+    .p-low-opacity{
+        opacity: 0.2;
+    }
+    .btn-more{
+        background-color: $colorWhiteSmoke;
+        margin: 50px;
+        color: black;
+        font-size: $fontSizeMeduim1;
+        border: none;
+        border-radius: 24px;
+        padding: 16px 80px;
+        opacity: 0.7490196078431373;
+        cursor: pointer;
+        &:hover{
+            background-color: $colorGray;
+            color: $colorWhite;
+        }
+    }
+}
+
+.grid-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 16px;
+}
+

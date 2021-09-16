@@ -1,0 +1,43 @@
+$navBackgroundColor: white;
+$bodyFont: Arial, Helvetica, sans-serif;
+$ralewayFont: 'Raleway';
+$largeItemColumns: 2;
+
+$fontSizeSmall: 17px;
+$fontSizeMeduim1: 20px;
+$fontSizeMeduim2: 24px;
+$fontSizeLarge: 44px;
+
+$colorWhiteSmoke: #F5F5F5;
+$colorCyanBlue: #ADD4FF;
+$colorPanton: #EBD9D9;
+$colorGrayighViolet: #E6E2F0;
+$colorMintGreen: #B0D5D8;
+$colorGray: #404040;
+$colorBlack: #000000;
+$colorWhite: #FFFFFF;
+
+@mixin flexCenterEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    direction: ltr;
+}
+
+@mixin flexCenterStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+@mixin flexCenterColumns {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

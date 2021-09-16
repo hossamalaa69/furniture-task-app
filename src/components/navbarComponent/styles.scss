@@ -1,0 +1,36 @@
+@import "../../variables.scss";
+
+.navbar{
+    width: 100%;
+    height: 7vh;
+    background-color: $navBackgroundColor;
+
+    @include flexCenterEnd();
+    
+    .title{
+        margin: 0 auto 0 140px;
+        a{
+            font-size: $fontSizeMeduim1;
+        }
+    }
+
+    .links {
+        margin-right: 60px;
+    }
+
+    .img-navbar{
+        margin-right: 160px;
+        cursor: pointer;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+    a {
+        color: $colorBlack;
+        font-size: $fontSizeSmall;
+        text-decoration: none;
+        font-family: $ralewayFont;
+        margin: 10px;
+        font-weight: bold;
+    }
+}   
