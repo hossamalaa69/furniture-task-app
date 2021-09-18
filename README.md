@@ -20,11 +20,17 @@ In the application, we retrieve the furniture store products locally and show a 
 
 ## ScreenShots for mobile view (responsive)
 ### Home Page
-![alt text](https://github.com/hossamalaa69/QA-Task-React/blob/master/snapshots/1-Home.png?raw=true)
-![alt text](https://github.com/hossamalaa69/QA-Task-React/blob/master/snapshots/1-Home.png?raw=true)
-![alt text](https://github.com/hossamalaa69/QA-Task-React/blob/master/snapshots/1-Home.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/home1-r.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/home2-r.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/home3-r.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/home4-r.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/home5-r.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/home6-r.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/home7-r.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/home8-r.png?raw=true)
 ### Product Details
-![alt text](https://github.com/hossamalaa69/QA-Task-React/blob/master/snapshots/2-Pagination1.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/details1-r.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/details2-r.png?raw=true)
 
 
 
