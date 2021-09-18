@@ -1,0 +1,93 @@
+@import "../../variables.scss";
+
+.main-container{
+    border-top: 1px solid $colorGrayighViolet;
+    @include flexColumns();
+
+    .p-intro{
+        @include resetSpacing();
+        margin-top: 8%;
+        margin-left: 15%;
+        margin-bottom: 4%;
+        color: $colorBlack;
+        font-size: $fontSizeMeduim2;
+        font-family: $arvoFont;
+    }
+    .p-descr{
+        width: 50%;
+        @include resetSpacing();
+        margin-left: 15%;
+        color: $colorGray;
+        font-size: $fontSizeSmall;
+        font-family: $arvoFont;
+    }
+
+    .p-prod-info{
+        @include resetSpacing();
+        margin-left: 16%;
+        margin-top: 7%;
+        margin-bottom: 4%;
+        color: $colorBlack;
+        font-size: $fontSizeSmall2;
+        font-family: $julibatFont;
+    }
+
+    .aspect-div{
+        @include resetSpacing();
+        margin-left: 16%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: row;
+        @media (max-width: 1000px) {
+            flex-direction: column;
+        }
+        .div-p{
+            @include resetSpacing();
+            color: $colorGray;
+            font-size: $fontSizeSmall;
+            font-family: $arvoFont;
+            width: 17%;
+        }
+        .div-content{
+            @include resetSpacing();
+            color: $colorGray;
+            font-size: $fontSizeSmall;
+            font-family: $arvoFont;
+            margin-left: 5%;
+            width: 27%;
+        }
+    }
+    .div-line{
+        @include resetSpacing();
+        margin-left: 15%;
+        margin-bottom: 2%;
+        height: 1px;
+        width: 55%;
+        background-color: $colorGray;
+    }
+
+    .pic-div{
+        @include resetSpacing();
+        margin-left: 15%;
+        width: 67%;
+        height: 25%;
+        @include flexCenterStart();
+        .img-new-look{
+            width: 82%;
+            height: 100%;
+        }
+        .img-links{
+            @include resetSpacing();
+            margin-left: 8%;
+            @include flexCenterColumns();
+        }
+        .icon-link{
+            margin-top: 16px;
+            cursor: pointer;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+
+}

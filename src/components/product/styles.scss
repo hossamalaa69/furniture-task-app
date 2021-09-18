@@ -1,0 +1,59 @@
+@import "../../variables.scss";
+
+.grid-item{
+    background-color: $colorWhiteSmoke;
+    color: $colorWhite;
+    display: grid;
+    grid-template-rows: 1fr 280px 1fr;
+    height: 640px;
+    border-radius: 5px;
+    &.large{
+        grid-column: span $largeItemColumns;
+    }
+    &.colorCyanBlue{
+        background-color: $colorCyanBlue;
+    }
+    &.colorPanton{
+        background-color: $colorPanton;
+    }
+    &.colorGrayighViolet{
+        background-color: $colorGrayighViolet;
+    }
+    &.colorMintGreen{
+        background-color: $colorMintGreen;
+    }
+
+    .div-name1{
+        @include flexCenter();
+        color: $colorBlack;
+        font-family: $ralewayFont;
+        font-size: $fontSizeMeduim3;
+    }
+    .div-name2{
+        @include flexCenterStart();
+        margin-left: 13%;
+        color: $colorBlack;
+        font-family: $ralewayFont;
+        font-size: $fontSizeMeduim3;
+    }
+    .img-product{
+        width: 50%;
+        height: 280px;
+        margin: auto auto auto auto;
+    }
+    .div-more-info1{
+        @include flexCenter();
+    }
+    .div-more-info2{
+        @include flexCenterEnd();
+        margin-right: 13%;
+    }
+       
+    .btn-more-info{
+        cursor: pointer;
+        //width: 30%;
+        &:hover{
+            opacity: 0.5;
+        }    
+    }
+}

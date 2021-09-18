@@ -1,11 +1,15 @@
 $navBackgroundColor: white;
 $bodyFont: Arial, Helvetica, sans-serif;
 $ralewayFont: 'Raleway';
+$arvoFont: 'Ario';
+$julibatFont: 'Jubilat';
 $largeItemColumns: 2;
 
-$fontSizeSmall: 17px;
+$fontSizeSmall: 16px;
+$fontSizeSmall2: 18px;
 $fontSizeMeduim1: 20px;
 $fontSizeMeduim2: 24px;
+$fontSizeMeduim3: 28px;
 $fontSizeLarge: 44px;
 
 $colorWhiteSmoke: #F5F5F5;
@@ -14,6 +18,7 @@ $colorPanton: #EBD9D9;
 $colorGrayighViolet: #E6E2F0;
 $colorMintGreen: #B0D5D8;
 $colorGray: #404040;
+$colorGray2: #808080;
 $colorBlack: #000000;
 $colorWhite: #FFFFFF;
 
@@ -36,8 +41,18 @@ $colorWhite: #FFFFFF;
     flex-direction: column; 
 }
 
+@mixin flexColumns {
+    display: flex;
+    flex-direction: column;
+}
+
 @mixin flexCenter {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin resetSpacing {
+    padding: 0;
+    margin: 0;
 }

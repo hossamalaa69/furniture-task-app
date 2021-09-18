@@ -1,0 +1,13 @@
+@import "../../variables.scss";
+
+.main-page{
+    margin: 0;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 57% 43%;
+    @media (max-width: 800px) {
+        grid-template-columns: 100%;
+        grid-template-rows: 93vh 93vh;
+    }
+    height: 93vh;
+}
