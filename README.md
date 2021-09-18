@@ -9,7 +9,7 @@ In the application, we retrieve the furniture store products locally and show a 
 
 ## ScreenShots for Full Screen Web
 ### Home Page
-![alt text](https://github.com/hossamalaa69/QA-Task-React/blob/master/snapshots/1-Home.png?raw=true)
+![alt text](https://github.com/hossamalaa69/furniture-task-app/blob/master/snapshots/home1.png?raw=true)
 ![alt text](https://github.com/hossamalaa69/QA-Task-React/blob/master/snapshots/1-Home.png?raw=true)
 ![alt text](https://github.com/hossamalaa69/QA-Task-React/blob/master/snapshots/1-Home.png?raw=true)
 ### Product Details
